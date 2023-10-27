@@ -1,7 +1,7 @@
 st - simple terminal 
 --------------------
-st is a simple terminal emulator for X which sucks less.
-site: https://suckless.org/
+st is a simple terminal emulator for X which sucks less.  
+https://suckless.org/
 
 Requirements
 ------------
