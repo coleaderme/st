@@ -5,7 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "InconsolataSemiCondensedBold:size=13:antialias=true:autohint=true";
+// static char *font = "InconsolataSemiCondensedBold:pixelsize=14:antialias=true:autohint=true";
+// yay -S ttf-cascadia-code-nerd
+static char *font = "CaskaydiaCoveNerdFontPropo-Regular:pixelsize=14:antialias=true:autohint=false";
 static int borderpx = 2;
 
 /*
