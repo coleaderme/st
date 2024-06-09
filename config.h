@@ -5,9 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+// yay -S ttc-iosevka
+static char *font = "Iosevka Term Medium:style=Medium,Regular:size=12:antialias=true:autohint=false";
 // static char *font = "InconsolataSemiCondensedBold:pixelsize=14:antialias=true:autohint=true";
 // yay -S ttf-cascadia-code-nerd
-static char *font = "CaskaydiaCoveNerdFontPropo-Regular:pixelsize=14:antialias=true:autohint=false";
+// static char *font = "CaskaydiaCoveNerdFontPropo-Regular:pixelsize=14:antialias=true:autohint=false";
 static int borderpx = 2;
 
 /*
