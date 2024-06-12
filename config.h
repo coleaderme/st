@@ -98,66 +98,29 @@ unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    // MODIFIED
 	/* 8 normal colors */
     [0] = "#1a1a1a", /* black   */
     [1] = "#ff6d67", /* red     */
     [2] = "#a9dc76", /* green   */
-    [3] = "#ffd866", /* yellow  */
-    [4] = "#fc9867", /* orange  */
+    [3] = "#D18B19", /* orange  */
+    [4] = "#ffd866", /* yellow  */
     [5] = "#ab9df2", /* purple  */
     [6] = "#78dce8", /* cyan    */
     [7] = "#e5e5e5", /* white   */
-
     /* 8 bright colors */
-    [8]  = "#3f3f3f", /* bright black   */
+    [8]  = "#e5e5e5", /* bright black   */ // headings of menu
     [9]  = "#ff8c82", /* bright red     */
-    [10] = "#c3e88d", /* bright green   */
-    [11] = "#ffee99", /* bright yellow  */
-    [12] = "#ffc392", /* bright orange  */
+    [10] = "#83DB48", /* bright orange-green  */
+    [11] = "#c3e88d", /* bright green   */
+    [12] = "#ffee99", /* bright yellow  */
     [13] = "#cbb3f8", /* bright purple  */
     [14] = "#a7efe9", /* bright cyan    */
     [15] = "#ffffff", /* bright white   */
 
     /* special colors */
-    [256] = "#282828", /* background */
-    [257] = "#e5e5e5", /* foreground */
+    [256] = "#22252e", /* background */ // medium grey 50%
+    [257] = "#e5e5e5", /* foreground */ // light grey 90%
 };
-
-/////////////////////////////////////////////////////////////////////////////////
-    // ORIGINAL
-	// /* 8 normal colors */
-    // [0] = "#000000", /* black   */
-    // [1] = "#ff5555", /* red     */
-    // [2] = "#50fa7b", /* green   */
-    // [3] = "#f1fa8c", /* yellow  */
-    // [4] = "#bd93f9", /* blue    */
-    // [5] = "#ff79c6", /* magenta */
-    // [6] = "#8be9fd", /* cyan    */
-    // [7] = "#bbbbbb", /* white   */
-                                  
-    // /* 8 bright colors */
-    // [8]  = "#ff79c6", /* black   */
-    // [9]  = "#ff5555", /* red     */
-    // [10] = "#50fa7b", /* green   */
-    // [11] = "#f1fa8c", /* yellow  */
-    // [12] = "#bd93f9", /* blue    */
-    // [13] = "#ff79c6", /* magenta */
-    // [14] = "#8be9fd", /* cyan    */
-    // [15] = "#ffffff", /* white   */
-                                   
-    // /* special colors */
-    // [256] = "#32174d", /* background */
-    // [257] = "#f8f8f2", /* foreground */
-/////////////////////////////////////////////////////////////////////////////////
-	// /* more colors can be added after 255 to use with DefaultXX */
-	// "#cccccc",
-	// "#555555",
-	// "gray90", /* default foreground colour */
-	// "black", /* default background colour */
-// };
-
-
 /*
  * Default colors (colorname index)
  * foreground, background, cursor
