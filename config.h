@@ -98,28 +98,29 @@ unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-    [0] = "#1a1a1a", /* black   */
-    [1] = "#ff6d67", /* red     */
-    [2] = "#a9dc76", /* green   */
-    [3] = "#D18B19", /* orange  */
-    [4] = "#ffd866", /* yellow  */
-    [5] = "#ab9df2", /* purple  */
-    [6] = "#78dce8", /* cyan    */
-    [7] = "#e5e5e5", /* white   */
+    /* 8 normal colors */
+    [0] = "#1c1c1c", /* black   */
+    [1] = "#cc241d", /* red     */
+    [2] = "#98971a", /* green   */
+    [3] = "#d79921", /* yellow  */
+    [4] = "#458588", /* blue    */
+    [5] = "#b16286", /* magenta */
+    [6] = "#689d6a", /* cyan    */
+    [7] = "#a89984", /* white   */
     /* 8 bright colors */
-    [8]  = "#e5e5e5", /* bright black   */ // headings of menu
-    [9]  = "#ff8c82", /* bright red     */
-    [10] = "#83DB48", /* bright orange-green  */
-    [11] = "#c3e88d", /* bright green   */
-    [12] = "#ffee99", /* bright yellow  */
-    [13] = "#cbb3f8", /* bright purple  */
-    [14] = "#a7efe9", /* bright cyan    */
-    [15] = "#ffffff", /* bright white   */
+    [8]  = "#928374", /* bright black */
+    [9]  = "#fb4934", /* bright red */
+    [10] = "#b8bb26", /* bright green */
+    [11] = "#fabd2f", /* bright yellow */
+    [12] = "#83a598", /* bright blue */
+    [13] = "#d3869b", /* bright magenta */
+    [14] = "#8ec07c", /* bright cyan */
+    [15] = "#ebdbb2", /* bright white */
 
     /* special colors */
-    [256] = "#22252e", /* background */ // medium grey 50%
-    [257] = "#e5e5e5", /* foreground */ // light grey 90%
+    [256] = "#282828", /* background (dark grey, similar to Suckless default) */
+    [257] = "#ebdbb2", /* foreground (light white text) */
+    [258] = "#458588", /* cursor color (blue highlight, matches theme) */
 };
 /*
  * Default colors (colorname index)
